@@ -9,6 +9,12 @@ go  get  -u  github.com/Bestfeel/mou
 目前这个工具开箱即用, 没有约束你markdown格式语法。递归遍历文件下的所有markdown文件。可在线浏览。
 一般个人喜好写一些东西，但又不想用博客工具。所以这个工具可以很方便的帮我管理。
 
+使用mou命令之前，需要在bash配置文件中加一行。xxx内容根据实际途径替换
+
+```
+alias mou="go run /Users/xxx/go/src/github.com/xxx/mou/main.go"
+```
+
 ```
 ➜ mou -h
 This is a powerful online tool about Document center
@@ -22,7 +28,6 @@ Flags:
   -p, --path string   sever path (default ".")
 
 ```
-
 
 ### 效果图如下:
 
